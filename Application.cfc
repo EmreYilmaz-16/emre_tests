@@ -1,7 +1,7 @@
 ﻿<cfcomponent displayname="Application" output="true" hint="Uygulamayı yönetir.">	
 	<cfscript>
-		this.name = hash(getCurrentTemplatePath()) & 'WORKCUBE';
-		this.siteName = 'egitim.esra.partnerbilgisayar';
+		this.name = hash(getCurrentTemplatePath()) & 'TICIMAX';
+		this.siteName = 'emre_test.com';
 		this.sessionManagement = True;
 		this.sessionTimeout = CreateTimeSpan(0,0,15,0);
 		this.clientManagement = True;

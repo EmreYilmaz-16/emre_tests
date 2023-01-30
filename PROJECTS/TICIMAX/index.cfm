@@ -1,5 +1,6 @@
 ﻿<cfset request.self="/PROJECTS/TICIMAX/index.cfm">
 <cfset PROJECT_PATH="/PROJECTS/TICIMAX/">
+<cfset TicimaxServicePath="PROJECTS.TICIMAX.services">
 <cfset ProjectId=1>
 <!DOCTYPE html>
 <html>
@@ -14,6 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
     </script>
+    <link href="/PROJECTS/TICIMAX/css/main.css" rel="stylesheet">
 </head>
 
 <body>

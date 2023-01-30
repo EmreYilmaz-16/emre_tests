@@ -1,0 +1,63 @@
+<cfscript>
+    UrunServis= createObject("component","#TicimaxServicePath#.marka_servis");
+    Markalar=UrunServis.getMarka();
+  </cfscript>
+  
+  <table class="table table-sm table-striped">
+    <thead>
+    <tr>
+        <th>
+            Tanim
+        </th>
+        <th>
+            SeoSayfaBaslik
+        </th>
+        <th>
+            GuncellemeTarihi
+        </th>
+        <th>
+            Aktif
+        </th>
+        <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <cfoutput>
+        <cfloop array="#Markalar#" item="it">
+        <tr>
+            <td>
+                #it.Tanim#
+            </td>
+            <td>
+                #it.SeoSayfaBaslik#
+            </td>
+            <td>
+                #it.GuncellemeTarihi#
+            </td>
+            <td>
+                #it.Aktif#
+            </td>
+           <td>
+            <a href="#request.self#?fuseaction=product.upd_tici_brand&id=#it.ID#">Güncelle</a>
+           </td>
+        </tr></cfloop>    
+    </cfoutput>
+  </tbody>
+  </table>
+<!----
+Marka_={
+    Aktif:Marka.Aktif.XmlText,
+    Breadcrumb:Marka.Breadcrumb.XmlText,
+    EklemeTarihi:Marka.EklemeTarihi.XmlText,
+    GuncellemeTarihi:Marka.GuncellemeTarihi.XmlText,
+    ID:Marka.ID.XmlText,
+    Icerik:Marka.Icerik.XmlText,
+    Resim:Marka.Resim.XmlText,
+    SeoAnahtarKelime:Marka.SeoAnahtarKelime.XmlText,
+    SeoSayfaAciklama:Marka.SeoSayfaAciklama.XmlText,
+    SeoSayfaBaslik:Marka.SeoSayfaBaslik.XmlText,
+    Sira:Marka.Sira.XmlText,
+    Tanim:Marka.Tanim.XmlText,
+    Url:Marka.Url.XmlText
+};
+arrayAppend(ARR_Marka,Marka_)--->

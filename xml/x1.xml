@@ -1,0 +1,106 @@
+<item itemType="9" itemClass="ZEBR" retailSalesCategory="DB" itemGroupCode="B130" itemStatus="Active" itemIsAvailable="true" itemIsPackage="false" harmonizationCode="9403896015" itemIsExpressShipEligible="false" itemStatusDate="2016-12-21" itemMfgWarrantyDays="365" itemColor="Gray" itemsPerCase="1">
+    <itemIdentification>
+      <itemIdentifier itemNumber="B130-382" itemNumberQualifier="SellerAssigned" />
+      <itemIdentifier itemNumber="B130-382" itemNumberQualifier="BuyerAssigned" />
+      <itemIdentifier itemNumber="024052389166" itemNumberQualifier="UPC" />
+      <itemDescription descriptionValue="King Upholstered Bed" itemDescriptionQualifier="SellerAssigned" itemDescriptionClassification="Product" />
+      <itemDescription descriptionValue="King Upholstered Bed" itemDescriptionQualifier="SellerAssigned" itemDescriptionClassification="Friendly" />
+      <itemCharacteristics>
+        <itemUnits unitOfMeasure="Each" value="1" />
+        <itemUnitDescription>King Upholstered Bed</itemUnitDescription>
+        <itemDimensions>
+          <depth unitOfMeasure="Inches" value="87.25" />
+          <height unitOfMeasure="Inches" value="60.5" />
+          <length unitOfMeasure="Inches" value="82" />
+          <weight unitOfMeasure="Pounds" value="106" weightQualifier="NetWeight" />
+        </itemDimensions>
+      </itemCharacteristics>
+      <itemCharacteristics>
+        <itemUnits unitOfMeasure="Each" value="1" />
+        <itemUnitDescription>King Upholstered Bed</itemUnitDescription>
+        <itemDimensions>
+          <depth unitOfMeasure="Millimeters" value="2216.15" />
+          <height unitOfMeasure="Millimeters" value="1536.7" />
+          <length unitOfMeasure="Millimeters" value="2082.8" />
+          <weight unitOfMeasure="Kilograms" value="48.08" weightQualifier="NetWeight" />
+        </itemDimensions>
+      </itemCharacteristics>
+      <packageCharacteristics>
+        <packageUnits unitOfMeasure="Each" value="1" />
+        <packageUnitDescription>King Upholstered Bed</packageUnitDescription>
+        <packageDimensions>
+          <depth unitOfMeasure="Inches" value="40.38" />
+          <height unitOfMeasure="Inches" value="5.5" />
+          <length unitOfMeasure="Inches" value="83.13" />
+          <volume unitOfMeasure="CubicFeet" value="10.68" />
+          <weight unitOfMeasure="Pounds" value="111" weightQualifier="GrossWeight" />
+        </packageDimensions>
+      </packageCharacteristics>
+      <packageCharacteristics>
+        <packageUnits unitOfMeasure="Each" value="1" />
+        <packageUnitDescription>King Upholstered Bed</packageUnitDescription>
+        <packageDimensions>
+          <depth unitOfMeasure="Millimeters" value="1025.65" />
+          <height unitOfMeasure="Millimeters" value="139.7" />
+          <length unitOfMeasure="Millimeters" value="2111.5" />
+          <volume unitOfMeasure="CubicMeters" value="0.3" />
+          <weight unitOfMeasure="Kilograms" value="50.35" weightQualifier="GrossWeight" />
+        </packageDimensions>
+      </packageCharacteristics>
+    </itemIdentification>
+    <itemVendor>
+      <afParty:partyIdentifier partyIdentifierCode="052738531" partyIdentifierQualifierCode="DUNS" />
+      <afParty:partyName>Ashley</afParty:partyName>
+    </itemVendor>
+    <itemPricing PriceQualifierCode="Standard">
+      <unitPrice fobPoint="ECRU">180.00</unitPrice>
+      <wholesalePriceWithoutFreight>169.29</wholesalePriceWithoutFreight>
+      <netPrice>172.89</netPrice>
+      <freightAmount freightPriceQualifier="StandardFreight">3.60</freightAmount>
+      <discountAmount>9.00</discountAmount>
+      <dfiDiscountAmount>1.71</dfiDiscountAmount>
+    </itemPricing>
+    <image quality="MediumResolution" name="B130-382_BIG.jpg" url="B130-382_BIG.jpg" />
+    <referenceDocument url="https://www.ashleydirect.com/GraphicsVault/Assembly_Instr/B130-181,182,381,382_AIS.pdf" name="B130-181,182,381,382_AIS.pdf" referenceDocumentQualifier="AssemblyInstructions" />
+    <referenceDocument url="https://www.ashleydirect.com/GraphicsVault/Parts_Drawing/B130-381,382_RPDF.pdf" name="B130-381,382_RPDF.pdf" referenceDocumentQualifier="PartsDrawing" />
+    <itemFeatures>
+      <itemFeature id="1">Engineered wood frame</itemFeature>
+      <itemFeature id="2">Includes headboard, footboard and rails</itemFeature>
+      <itemFeature id="3">Polyester upholstery on headboard, footboard and rails</itemFeature>
+      <itemFeature id="4">Square tufting on headboard</itemFeature>
+      <itemFeature id="5">Foundation/box spring required, sold separately</itemFeature>
+      <itemFeature id="6">Mattress available, sold separately</itemFeature>
+      <itemFeature id="7">Assembly required</itemFeature>
+      <itemFeature id="8">Excluded from promotional discounts and coupons</itemFeature>
+      <itemFeature id="9">All parts required for assembly of this bed are packed in the open space in the back of the headboard</itemFeature>
+    </itemFeatures>
+    <itemFluffs>
+      <itemFluff id="1">Serenity now. This king upholstered bed is sure to awaken a love for modern platform styling with a softer side. Plush to the touch and so easy on the eyes, a dusty gray fabric hugs the bed—from the chic headboard with stitched square tufting, to the low footboard and side rails, emanating the calming mood you long for in the bedroom. Mattress and foundation/box spring sold separately.</itemFluff>
+    </itemFluffs>
+    <itemExtraDimensions>
+      <itemExtraDimension>
+        <standardDimension>Panel to floor: 22.25 in</standardDimension>
+        <metricDimension>Panel to floor: 565.15 mm</metricDimension>
+      </itemExtraDimension>
+      <itemExtraDimension>
+        <standardDimension>Rail width: 77.88 in</standardDimension>
+        <metricDimension>Rail width: 1978.15 mm</metricDimension>
+      </itemExtraDimension>
+      <itemExtraDimension>
+        <standardDimension>Rail to floor: 3.13 in</standardDimension>
+        <metricDimension>Rail to floor: 79.5 mm</metricDimension>
+      </itemExtraDimension>
+      <itemExtraDimension>
+        <standardDimension>Headboard: Width:82 in Depth:4.75 in Height:60.5 in </standardDimension>
+        <metricDimension>Headboard: Width:2082.8 mm Depth:120.65 mm Height:1536.7 mm </metricDimension>
+      </itemExtraDimension>
+      <itemExtraDimension>
+        <standardDimension>Assembled king upholstered bed: Width:82 in Depth:87.25 in Height:60.5 in </standardDimension>
+        <metricDimension>Assembled king upholstered bed: Width:2082.8 mm Depth:2216.15 mm Height:1536.7 mm </metricDimension>
+      </itemExtraDimension>
+      <itemExtraDimension>
+        <standardDimension>Footboard: Width:79.75 in Depth:1.75 in Height:11.38 in </standardDimension>
+        <metricDimension>Footboard: Width:2025.65 mm Depth:44.45 mm Height:289.05 mm </metricDimension>
+      </itemExtraDimension>
+    </itemExtraDimensions>
+  </item>

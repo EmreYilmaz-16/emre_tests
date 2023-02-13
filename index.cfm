@@ -28,6 +28,17 @@
                     </div>
                 </div>
             </div>
+            <div class="col col-3">
+                <div class="card">
+                    <div class="card-header">My Wallet Projesi</div>
+                    <div class="card-body">
+                        Para - Bütçe Yönetim Projesi
+                    </div>
+                    <div class="card-footer">
+                        <button onclick="window.location.href='/PROJECTS/MyWallet'" class="btn btn-primary">Projeye Git</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

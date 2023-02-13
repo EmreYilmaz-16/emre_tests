@@ -22,6 +22,8 @@
 	<cffunction name="OnApplicationStart" access="public" returntype="boolean" output="false" hint="Uygulama başladığı anda çalıştırılacak kodlar. Tek defa çalıştırır.">
 		<cfset application.systemParam = createObject("component", "cfc.settings")>
         <cfset structAppend(variables,application.systemParam.params())/>
+		<cfset application.systemFunctions = createObject("component", "cfc.functions")>
+       
     <!----<cfset application.systemFunctions = createObject("component", "cfc.functions")>
        < <cfset structAppend(variables,application.systemFunctions.langSet(dsn))/>---->
 		<cfreturn true />
@@ -62,7 +64,9 @@
 	--->
 	<cffunction name="onRequest" returnType="void">
 		<cfargument name="targetPage" type="string" required="true" /><!--- Burası index.cfm gelir. Ulaşılmak istenen dosya index.cfm içerisindeki wrkTemplate'tir. --->
-<!---
+		<cfset application.systemFunctions = createObject("component", "cfc.functions")>
+		<cfset structAppend(variables,application.systemFunctions)/>
+		<!---
 			<cfscript>
                 OnApplicationStart();
             </cfscript>

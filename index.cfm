@@ -39,6 +39,17 @@
                     </div>
                 </div>
             </div>
+            <div class="col col-3">
+                <div class="card">
+                    <div class="card-header">Otomatik Planlama</div>
+                    <div class="card-body">
+                        ELS Otomatik Hafta Planlama Projesi
+                    </div>
+                    <div class="card-footer">
+                        <button onclick="window.location.href='/PROJECTS/OtomatikPlanlama'" class="btn btn-primary">Projeye Git</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

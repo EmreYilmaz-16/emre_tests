@@ -50,6 +50,17 @@
                     </div>
                 </div>
             </div>
+            <div class="col col-3">
+                <div class="card">
+                    <div class="card-header">Ashley Kategori</div>
+                    <div class="card-body">
+                        Ashley Kategori Oluşturma Projesi
+                    </div>
+                    <div class="card-footer">
+                        <button onclick="window.location.href='/PROJECTS/AshleyKategori'" class="btn btn-primary">Projeye Git</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

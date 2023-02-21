@@ -57,7 +57,7 @@
                         Ashley Kategori Oluşturma Projesi
                     </div>
                     <div class="card-footer">
-                        <button onclick="window.location.href='/PROJECTS/AshleyKategori'" class="btn btn-primary">Projeye Git</button>
+                        <button onclick="window.location.href='/PROJECTS/asley'" class="btn btn-primary">Projeye Git</button>
                     </div>
                 </div>
             </div>

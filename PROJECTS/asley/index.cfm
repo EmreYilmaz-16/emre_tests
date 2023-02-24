@@ -255,13 +255,68 @@
 'Furniture;Furniture - Living Room;Furniture - Living Room - Power Seating;Furniture - Living Room - Recliners',
 'Kids;Kids - Furniture;Kids - Furniture - Nightstands',
 'Kids;Kids - Furniture;Kids - Furniture - Mirrored Dressers']>
-<cfset Cats=queryNew(nyquery,"cat_id,upper_id,catname","integer,integer, varchar">
+<cfloop array="#strArr#" item="it">
+  <cfset liste=listLast(it,";")>
+  <cfset elemansayisi=listLen(liste,"-")>
+  <cfloop from="1" to="#elemansayisi#" index="i">
+    <cfquery name="q1" datasource="#dsn#">
+       SELECT * FROM PRODUCT_CAT where PRODUCT_CAT='#trim(listGetAt(liste,i,"-"))#'
+    </cfquery>
+    <cfif q1.recordCount>
+    
+    <cfelse>
+    </cfif>
+  </cfloop>
+</cfloop>
+
+
+
+
+
+
+<!----------
 
 <cfloop array="#strArr#" item="it">
     <cfset liste=listlast(it,";")>
-    <cfloop list="#liste#" item="ix">
-      <cfoutput>  #ix#<br></cfoutput>
-      
+    <cfset lelis=listLen(liste,"-")>
+    <cfloop list="#liste#" item="ix" delimiters="-" index="i">
+      <cfquery name="ihv" datasource="#dsn#">
+        SELECT * FROM PRODUCT_CAT where PRODUCT_CAT='#trim(ix)#'
+      </cfquery>
+      <cfdump var="#ihv#">
+      <cfif ihv.recordCount>
+
+      <cfelse>
+        <cfif i eq 1>
+          <cfquery name="ins" datasource="#dsn#">
+            INSERT INTO PRODUCT_CAT (UPPER_CATID,PRODUCT_CAT) VALUES (0,'#ix#')
+          </cfquery>
+          <cfelse>
+          <cfif i gt 2>
+          
+          <cfelse>
+          
+          <cfset UpperCat=listGetAt(liste,i-1,"-")>
+          <cfquery name="ihv2" datasource="#dsn#">
+            SELECT * FROM PRODUCT_CAT where PRODUCT_CAT='#trim(UpperCat)#'
+          </cfquery>
+           <cfquery name="ins" datasource="#dsn#">
+            INSERT INTO PRODUCT_CAT (UPPER_CATID,PRODUCT_CAT) VALUES (#ihv2.PRODUCT_CATID#,'#ix#')
+          </cfquery>
+          </cfif>
+        </cfif>
+      </cfif>
     </cfloop>
+   <!----<cfquery name="ihv" datasource="#dsn#">
+    SELECT * FROM PRODUCT_CAT AS PC0
+    <cfloop list="#liste#" item="ix" delimiters="-" index="i">
+      LEFT JOIN PRODUCT_CAT AS PC#i# ON PC#i#.UPPER_CATID=PC#i-1#.PRODUCT_CATID
+    </cfloop>       
+    WHERE 1=1 <cfloop list="#liste#" item="ix" delimiters="-" index="i">
+      AND PC#i-1#.PRODUCT_CAT='#trim(ix)#'
+    </cfloop> 
+  </cfquery>---->
+  
     
 </cfloop>
+---------->

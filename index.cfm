@@ -61,6 +61,17 @@
                     </div>
                 </div>
             </div>
+            <div class="col col-3">
+                <div class="card">
+                    <div class="card-header">Metosan Ürün Ağacı</div>
+                    <div class="card-body">
+                        Metosan Ürün Ağacı hazırlama projesi
+                    </div>
+                    <div class="card-footer">
+                        <button onclick="window.location.href='/PROJECTS/metosan'" class="btn btn-primary">Projeye Git</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
